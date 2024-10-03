@@ -40,6 +40,7 @@ Después hay un bucle que recorre empezando por los dos extremos y hasta que se 
 Una vez tenemos la posición de los píxeles donde empieza y acaba el movimiento, le pintamos un rectángulo rojo que rodea el objeto en cuestión.
 
 
+![2024-10-03 18-45-22](https://github.com/user-attachments/assets/92609b86-523f-4b73-8f0b-5e76d869d6fb)
 
 
 Autores:
