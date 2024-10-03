@@ -14,7 +14,7 @@ En esta tarea se ha realizado el conteo pixeles blancos en las filas de la image
 
 ## 2º Tarea
 
-
+Esta tarea es muy similar a la anterior, en este caso se realiza el mismo procedimiento que la anterior tarea, en este caso se aplica un umbralizado a una imagen de Sobel y a esta imagen es a la que se le realiza conteo de píxels blancos de filas y columnas y se calcula el máximo en fila y columna y cuales son las filas y columnas que superan el 95% de este máximo. En esta tarea se comparan los resultados y en la imagen Sobel se remarca con primitivas las filas y columnas.
 
 ## 3º Tarea
 
