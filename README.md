@@ -26,6 +26,16 @@ En esta tarea para demostrar a las personas que no cursan la asignatura algunas 
 
 ## 4º Tarea
 
+En la cuarta tarea, lo que hemos intentado hacer es detectar los límites de un objeto en movimiento, en nuestro caso, una persona.
+
+Para ello hemos usado principalmente la función de open-cv “absdiff”, esto es posible porque medimos los cambios entre 2 frames y detectamos por filas y columnas donde empieza y dónde acaba dicho cambio. 
+
+Antes pasamos la imagen capturada a escala de grises, calculamos la diferencia y a la diferencia le aplicamos un threshold que tenemos que calibrar dependiendo del entorno. 
+
+Después hay un bucle que recorre empezando por los dos extremos y hasta que se encuentran los índices para encontrar el primer cambio notable, esto se aplica tanto por filas como por columnas. 
+
+Una vez tenemos la posición de los píxeles donde empieza y acaba el movimiento, le pintamos un rectángulo rojo que rodea el objeto en cuestión.
+
 
 
 Autores:
