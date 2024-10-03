@@ -22,7 +22,7 @@ Esta tarea es muy similar a la anterior, en este caso se realiza el mismo proced
 
 ## 3º Tarea
 
-
+En esta tarea para demostrar a las personas que no cursan la asignatura algunas funciones de open-cv, hemos decidido usar el umbral y la diferencia. En el caso del umbral, pasamos la imagen a escala de grises y aplicamos un umbral con la función "cv2.threshold", le pasamos el valor del umbral dinámicamente mediante el scroll del ratón. Para la diferencia, usamos la función "cv2.absdiff" y en nuestro caso, hacemos la diferencia de los 10 últimos frames y la mostramos, provocando un efecto de estela en el movimiento.
 
 ## 4º Tarea
 
