@@ -24,6 +24,9 @@ Esta tarea es muy similar a la anterior, en este caso se realiza el mismo proced
 
 En esta tarea para demostrar a las personas que no cursan la asignatura algunas funciones de open-cv, hemos decidido usar el umbral y la diferencia. En el caso del umbral, pasamos la imagen a escala de grises y aplicamos un umbral con la función "cv2.threshold", le pasamos el valor del umbral dinámicamente mediante el scroll del ratón. Para la diferencia, usamos la función "cv2.absdiff" y en nuestro caso, hacemos la diferencia de los 10 últimos frames y la mostramos, provocando un efecto de estela en el movimiento.
 
+![image](https://github.com/user-attachments/assets/63eb4ea0-0102-4a72-91ce-205bb22b96d7)
+
+
 ## 4º Tarea
 
 En la cuarta tarea, lo que hemos intentado hacer es detectar los límites de un objeto en movimiento, en nuestro caso, una persona.
@@ -36,6 +39,7 @@ Después hay un bucle que recorre empezando por los dos extremos y hasta que se 
 
 Una vez tenemos la posición de los píxeles donde empieza y acaba el movimiento, le pintamos un rectángulo rojo que rodea el objeto en cuestión.
 
+![image](https://github.com/user-attachments/assets/c949d47a-742b-4905-a0ca-393070cff6c3)
 
 
 Autores:
